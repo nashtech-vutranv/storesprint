@@ -1,0 +1,81 @@
+name: Ci cd production environment
+on:
+  push:
+    tags:
+      - 1.*
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  REGISTRY: ghcr.io
+  OWNER_REPO: thg-harveynash
+  IMAGE_NAME: ghcr.io/thg-harveynash/${{ github.event.repository.name }}
+  KEYCLOAK_SERVER: ${{ secrets.MMS_KEYCLOAK_SERVER_PROD }}
+  CHART_NAME: mms-management-ui-fe
+  ENV_DEPLOY: prod
+  MMS_TOKEN: ${{ secrets.MMS_TOKEN }}
+
+jobs:
+  ci-cd-prod-env:
+    environment: Production environment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: toko-bifrost/ms-teams-deploy-card@master
+        if: always()
+        with:
+          github-token: ${{ github.token }}
+          webhook-uri: ${{ secrets.MMS_MS_TEAMS_WEBHOOK_URI }}
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3.6.2
+        with:
+          images: ${{ env.IMAGE_NAME }}
+
+      - name: npm run build
+        run: |
+          npm install
+          REACT_APP_AUTH_SERVER_URL=${KEYCLOAK_SERVER} REACT_APP_VERSION=${{ steps.meta.outputs.version }} npm run build
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.MMS_TOKEN }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Checkout mms-deployment repo
+        uses: actions/checkout@v3
+        with:
+          repository: thg-harveynash/mms-deployment
+          path: mms-deployment
+          ref: ${{ env.ENV_DEPLOY }}
+          token: ${{ secrets.MMS_TOKEN }}
+
+      - name: Update image version in the related HelmChart values.yaml
+        uses: fjogeleit/yaml-update-action@v0.11.0
+        with:
+          workDir: mms-deployment
+          valueFile: '${{ env.ENV_DEPLOY }}/${{ env.CHART_NAME }}.values.yaml'
+          propertyPath: 'image.tag'
+          value: ${{ steps.meta.outputs.version }}
+          repository: thg-harveynash/mms-deployment
+          branch: ${{ env.ENV_DEPLOY }}
+          token: ${{ secrets.MMS_TOKEN }}
+          message: 'Release version ${{ steps.meta.outputs.version }} for ${{ env.CHART_NAME }} production environment'

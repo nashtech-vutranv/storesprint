@@ -1,0 +1,14 @@
+@include media-breakpoint-down(lg) {
+  .nav-user {
+    padding: 0 !important;
+    .account-user-name {
+      display: block;
+    }
+  }
+}
+
+body[data-layout-color='light'] {
+  .navbar-custom .topbar-menu .nav-link {
+    color: var(--ct-body-color);
+  }
+}

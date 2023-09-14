@@ -1,0 +1,68 @@
+.form-organization {
+  .p-dialog-content {
+    background: #3a444e;
+  }
+
+  .p-inputtext {
+    background: #3a444e;
+  }
+}
+
+.card-form {
+  // margin-top: 24px;
+  &__title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+  }
+}
+
+.card-form-mt-24 {
+  margin-top: 24px;
+}
+
+.form-warehouse {
+  margin-top: 24px;
+  .warehouse-note {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    i {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.form-row-sm-mb {
+  margin-bottom: 0.5rem;
+}
+
+.form-row-md-mb {
+  margin-bottom: 1rem;
+}
+
+.invalid-field {
+  border: 1px solid #fca5a5 !important;
+  border-radius: 4px;
+}
+
+.inherit-color {
+  .css-14el2xx-placeholder {
+    color: inherit;
+  }
+}
+
+body[data-layout-color=light] {
+  .p-error {
+    color: red;
+  }
+}
+

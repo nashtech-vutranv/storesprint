@@ -1,0 +1,51 @@
+body[data-leftbar-theme='default'] {
+  .logo span.logo-lg {
+    color: #fff;
+  }
+}
+
+body[data-leftbar-theme='dark'] {
+  .side-nav {
+    .side-nav-link,
+    .side-nav-second-level li a {
+      color: #aeb0c1;
+    }
+  }
+  .logo {
+    color: #fff;
+  }
+}
+
+body[data-leftbar-theme='light'] {
+  .side-nav a.side-sub-nav-link.active,
+  .side-nav .menuitem-active > a {
+    color: #4959f3 !important;
+  }
+  .logo-lg {
+    color: #6c757d;
+  }
+}
+
+body[data-layout-color='light'] {
+  .logo {
+    color: #6c757d;
+  }
+}
+
+body[data-leftbar-compact-mode='fixed'] {
+  .logo {
+    color: #fff !important;
+  }
+}
+
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .side-nav .side-nav-item:hover .side-nav-link {
+  width: 320px;
+}
+
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .side-nav .side-nav-item:hover > ul {
+  width: 250px;
+}
+
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .leftside-menu {
+  z-index: 6;
+}

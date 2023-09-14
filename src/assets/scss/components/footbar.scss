@@ -1,0 +1,9 @@
+body[data-layout-color='light'] {
+  .footer {
+    color: var(--ct-body-color);
+  }
+
+  .footer .footer-links a {
+    color: var(--ct-body-color);
+  }
+}

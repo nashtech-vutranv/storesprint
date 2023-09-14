@@ -1,0 +1,1404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render page View Marketplace Relationships 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <div
+            class="page-title-box"
+          >
+            <h4
+              class="page-title"
+            >
+              marketplace_relationships_title
+            </h4>
+          </div>
+        </div>
+        <div
+          class="col-12"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-body"
+            >
+              <div
+                class="custom-accordion accordion"
+                id="accordion"
+              >
+                <div
+                  class="d-flex align-items-center"
+                >
+                  <span
+                    class=""
+                    style="margin-right: 0.5rem;"
+                  >
+                    <span>
+                      <div
+                        class="d-flex align-items-start"
+                      >
+                        <i
+                          class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"
+                          style="transform: scale(1.5);"
+                        />
+                      </div>
+                    </span>
+                  </span>
+                  <span
+                    style="font-size: 1.2rem; margin: 0px;"
+                  >
+                    marketplace_relationships_fitler_title
+                  </span>
+                </div>
+                <div
+                  class="accordion-collapse collapse show"
+                >
+                  <div
+                    class="px-0 container-fluid"
+                  >
+                    <div
+                      class="align-items-center pb-2 row"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <label
+                          for="organization-name"
+                        >
+                          marketplace_relationships_organization_label
+                        </label>
+                      </div>
+                      <div
+                        class="col-6"
+                      >
+                        <div
+                          class="react-select css-b62m3t-container"
+                        >
+                          <span
+                            class="css-1f43avz-a11yText-A11yText"
+                            id="react-select-2-live-region"
+                          />
+                          <span
+                            aria-atomic="false"
+                            aria-live="polite"
+                            aria-relevant="additions text"
+                            class="css-1f43avz-a11yText-A11yText"
+                          />
+                          <div
+                            class="react-select__control css-13cymwt-control"
+                          >
+                            <div
+                              class="react-select__value-container react-select__value-container--is-multi css-1fdsijx-ValueContainer"
+                            >
+                              <div
+                                class="react-select__placeholder css-1jqq78o-placeholder"
+                                id="react-select-2-placeholder"
+                              >
+                                marketplace_relationships_organization_placeHolder
+                              </div>
+                              <div
+                                class="react-select__input-container css-qbdosj-Input"
+                                data-value=""
+                              >
+                                <input
+                                  aria-autocomplete="list"
+                                  aria-describedby="react-select-2-placeholder"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  aria-label="textbox"
+                                  autocapitalize="none"
+                                  autocomplete="off"
+                                  autocorrect="off"
+                                  class="react-select__input"
+                                  id="react-select-2-input"
+                                  role="combobox"
+                                  spellcheck="false"
+                                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                  tabindex="0"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+                            >
+                              <span
+                                class="react-select__indicator-separator css-1u9des2-indicatorSeparator"
+                              />
+                              <div
+                                aria-hidden="true"
+                                class="react-select__indicator react-select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="css-tj5bde-Svg"
+                                  focusable="false"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  width="20"
+                                >
+                                  <path
+                                    d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="align-items-center pb-2 row"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <label
+                          for="site-name"
+                        >
+                          marketplace_relationships_site_label
+                        </label>
+                      </div>
+                      <div
+                        class="col-6"
+                      >
+                        <div
+                          class="react-select css-b62m3t-container"
+                        >
+                          <span
+                            class="css-1f43avz-a11yText-A11yText"
+                            id="react-select-3-live-region"
+                          />
+                          <span
+                            aria-atomic="false"
+                            aria-live="polite"
+                            aria-relevant="additions text"
+                            class="css-1f43avz-a11yText-A11yText"
+                          />
+                          <div
+                            class="react-select__control css-13cymwt-control"
+                          >
+                            <div
+                              class="react-select__value-container react-select__value-container--is-multi css-1fdsijx-ValueContainer"
+                            >
+                              <div
+                                class="react-select__placeholder css-1jqq78o-placeholder"
+                                id="react-select-3-placeholder"
+                              >
+                                marketplace_relationships_site_placeHolder
+                              </div>
+                              <div
+                                class="react-select__input-container css-qbdosj-Input"
+                                data-value=""
+                              >
+                                <input
+                                  aria-autocomplete="list"
+                                  aria-describedby="react-select-3-placeholder"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  aria-label="textbox"
+                                  autocapitalize="none"
+                                  autocomplete="off"
+                                  autocorrect="off"
+                                  class="react-select__input"
+                                  id="react-select-3-input"
+                                  role="combobox"
+                                  spellcheck="false"
+                                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                  tabindex="0"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+                            >
+                              <span
+                                class="react-select__indicator-separator css-1u9des2-indicatorSeparator"
+                              />
+                              <div
+                                aria-hidden="true"
+                                class="react-select__indicator react-select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="css-tj5bde-Svg"
+                                  focusable="false"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  width="20"
+                                >
+                                  <path
+                                    d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="align-items-center pb-2 row"
+                    >
+                      <div
+                        class="col-2"
+                      >
+                        <label
+                          for="locale-name"
+                        >
+                          marketplace_relationships_locale_label
+                        </label>
+                      </div>
+                      <div
+                        class="col-6"
+                      >
+                        <div
+                          class="react-select css-b62m3t-container"
+                        >
+                          <span
+                            class="css-1f43avz-a11yText-A11yText"
+                            id="react-select-4-live-region"
+                          />
+                          <span
+                            aria-atomic="false"
+                            aria-live="polite"
+                            aria-relevant="additions text"
+                            class="css-1f43avz-a11yText-A11yText"
+                          />
+                          <div
+                            class="react-select__control css-13cymwt-control"
+                          >
+                            <div
+                              class="react-select__value-container react-select__value-container--is-multi css-1fdsijx-ValueContainer"
+                            >
+                              <div
+                                class="react-select__placeholder css-1jqq78o-placeholder"
+                                id="react-select-4-placeholder"
+                              >
+                                marketplace_relationships_locale_placeHolder
+                              </div>
+                              <div
+                                class="react-select__input-container css-qbdosj-Input"
+                                data-value=""
+                              >
+                                <input
+                                  aria-autocomplete="list"
+                                  aria-describedby="react-select-4-placeholder"
+                                  aria-expanded="false"
+                                  aria-haspopup="true"
+                                  aria-label="textbox"
+                                  autocapitalize="none"
+                                  autocomplete="off"
+                                  autocorrect="off"
+                                  class="react-select__input"
+                                  id="react-select-4-input"
+                                  role="combobox"
+                                  spellcheck="false"
+                                  style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                  tabindex="0"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+                            >
+                              <span
+                                class="react-select__indicator-separator css-1u9des2-indicatorSeparator"
+                              />
+                              <div
+                                aria-hidden="true"
+                                class="react-select__indicator react-select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="css-tj5bde-Svg"
+                                  focusable="false"
+                                  height="20"
+                                  viewBox="0 0 20 20"
+                                  width="20"
+                                >
+                                  <path
+                                    d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                  />
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="row"
+                    >
+                      <div
+                        class="text-center col-8"
+                      >
+                        <button
+                          class="me-2 btn btn-danger"
+                          type="button"
+                        >
+                          common_button_reset_label
+                        </button>
+                        <button
+                          class="btn btn-success"
+                          type="button"
+                        >
+                          common_button_apply_label
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-datatable p-component p-datatable-selectable p-datatable-resizable p-datatable-resizable-fit p-datatable-responsive-scroll data-table-mh"
+          data-scrollselectors=".p-datatable-wrapper"
+          pr_id_1=""
+        >
+          <div
+            class="p-datatable-header"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="d-flex justify-content-start align-items-center"
+              >
+                <div
+                  class="btn-mr-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8"
+                >
+                  <span
+                    class="p-input-icon-right d-block"
+                  >
+                    <input
+                      class="p-inputtext p-component"
+                      placeholder="common_input_search_placeHolder"
+                      value=""
+                    />
+                  </span>
+                </div>
+                <button
+                  class="btn-h-95 btn btn-primary"
+                  type="button"
+                >
+                  common_button_search_label
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-datatable-wrapper"
+          >
+            <table
+              class="p-datatable-table"
+              role="table"
+            >
+              <thead
+                class="p-datatable-thead"
+              >
+                <tr
+                  role="row"
+                >
+                  <th
+                    aria-sort="ascending"
+                    class="p-sortable-column p-resizable-column p-highlight"
+                    role="columnheader"
+                    tabindex="0"
+                  >
+                    <span
+                      class="p-column-resizer"
+                    />
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        marketplace_relationships_column_header_organization
+                      </span>
+                      <span
+                        class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                      />
+                    </div>
+                  </th>
+                  <th
+                    aria-sort="none"
+                    class="p-sortable-column p-resizable-column"
+                    role="columnheader"
+                    tabindex="0"
+                  >
+                    <span
+                      class="p-column-resizer"
+                    />
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        marketplace_relationships_column_header_site
+                      </span>
+                      <span
+                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                      />
+                    </div>
+                  </th>
+                  <th
+                    aria-sort="none"
+                    class="p-sortable-column p-resizable-column"
+                    role="columnheader"
+                    tabindex="0"
+                  >
+                    <span
+                      class="p-column-resizer"
+                    />
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        marketplace_relationships_column_header_locale
+                      </span>
+                      <span
+                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                      />
+                    </div>
+                  </th>
+                  <th
+                    aria-sort="none"
+                    class="p-sortable-column p-resizable-column"
+                    role="columnheader"
+                    tabindex="0"
+                  >
+                    <span
+                      class="p-column-resizer"
+                    />
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        marketplace_relationships_column_header_marketplace
+                      </span>
+                      <span
+                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                      />
+                    </div>
+                  </th>
+                  <th
+                    aria-sort="none"
+                    class="p-sortable-column p-resizable-column"
+                    role="columnheader"
+                    tabindex="0"
+                  >
+                    <span
+                      class="p-column-resizer"
+                    />
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        marketplace_relationships_column_header_status
+                      </span>
+                      <span
+                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                      />
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="p-datatable-tbody"
+              >
+                <tr
+                  class="p-datatable-emptymessage"
+                  role="row"
+                >
+                  <td
+                    colspan="5"
+                    role="cell"
+                  >
+                    marketplace_relationships_table_empty_message
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div
+            class="p-paginator p-component p-paginator-bottom table-paginator"
+          >
+            <div
+              class="p-paginator-left-content"
+            >
+              <button
+                aria-label="refresh-button"
+                class="p-button p-component p-button-text p-button-icon-only"
+                type="button"
+              >
+                <span
+                  class="p-button-icon p-c pi pi-refresh"
+                />
+                <span
+                  class="p-button-label p-c"
+                >
+                   
+                </span>
+              </button>
+            </div>
+            <button
+              class="p-paginator-first p-paginator-element p-link p-disabled"
+              disabled=""
+              type="button"
+            >
+              <span
+                class="p-2"
+              >
+                organization_paginator_first
+              </span>
+            </button>
+            <button
+              class="p-paginator-prev p-paginator-element p-link p-disabled"
+              disabled=""
+              type="button"
+            >
+              <span
+                class="p-3"
+              >
+                organization_paginator_previous
+              </span>
+            </button>
+            <span
+              class="p-paginator-pages"
+            />
+            <button
+              class="p-paginator-next p-paginator-element p-link p-disabled"
+              disabled=""
+              type="button"
+            >
+              <span
+                class="p-3"
+              >
+                organization_paginator_next
+              </span>
+            </button>
+            <button
+              class="p-paginator-last p-paginator-element p-link p-disabled"
+              disabled=""
+              type="button"
+            >
+              <span
+                class="p-2"
+              >
+                organization_paginator_last
+              </span>
+            </button>
+            <div
+              class="p-dropdown p-component p-inputwrapper dropdown-table-input opacity-md p-disabled p-inputwrapper-filled"
+            >
+              <div
+                class="p-hidden-accessible"
+              >
+                <input
+                  aria-haspopup="listbox"
+                  aria-label="textbox"
+                  disabled=""
+                  readonly=""
+                  type="text"
+                />
+              </div>
+              <div
+                class="p-hidden-accessible p-dropdown-hidden-select"
+              >
+                <select
+                  aria-hidden="true"
+                  tabindex="-1"
+                >
+                  <option
+                    value=""
+                  />
+                  <option
+                    value="10"
+                  >
+                    10
+                  </option>
+                </select>
+              </div>
+              <span
+                class="p-dropdown-label p-inputtext"
+              >
+                10
+              </span>
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-label="dropdown-trigger"
+                class="p-dropdown-trigger"
+                role="button"
+              >
+                <span
+                  class="p-dropdown-trigger-icon p-clickable pi pi-chevron-down"
+                />
+              </div>
+            </div>
+            <span
+              style="user-select: none; text-align: center; margin-left: auto;"
+            >
+              organization_paginator_show_report
+            </span>
+            <div
+              class="p-paginator-right-content"
+            />
+          </div>
+          <div
+            class="p-column-resizer-helper"
+            style="display: none;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <div
+          class="page-title-box"
+        >
+          <h4
+            class="page-title"
+          >
+            marketplace_relationships_title
+          </h4>
+        </div>
+      </div>
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="custom-accordion accordion"
+              id="accordion"
+            >
+              <div
+                class="d-flex align-items-center"
+              >
+                <span
+                  class=""
+                  style="margin-right: 0.5rem;"
+                >
+                  <span>
+                    <div
+                      class="d-flex align-items-start"
+                    >
+                      <i
+                        class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"
+                        style="transform: scale(1.5);"
+                      />
+                    </div>
+                  </span>
+                </span>
+                <span
+                  style="font-size: 1.2rem; margin: 0px;"
+                >
+                  marketplace_relationships_fitler_title
+                </span>
+              </div>
+              <div
+                class="accordion-collapse collapse show"
+              >
+                <div
+                  class="px-0 container-fluid"
+                >
+                  <div
+                    class="align-items-center pb-2 row"
+                  >
+                    <div
+                      class="col-2"
+                    >
+                      <label
+                        for="organization-name"
+                      >
+                        marketplace_relationships_organization_label
+                      </label>
+                    </div>
+                    <div
+                      class="col-6"
+                    >
+                      <div
+                        class="react-select css-b62m3t-container"
+                      >
+                        <span
+                          class="css-1f43avz-a11yText-A11yText"
+                          id="react-select-2-live-region"
+                        />
+                        <span
+                          aria-atomic="false"
+                          aria-live="polite"
+                          aria-relevant="additions text"
+                          class="css-1f43avz-a11yText-A11yText"
+                        />
+                        <div
+                          class="react-select__control css-13cymwt-control"
+                        >
+                          <div
+                            class="react-select__value-container react-select__value-container--is-multi css-1fdsijx-ValueContainer"
+                          >
+                            <div
+                              class="react-select__placeholder css-1jqq78o-placeholder"
+                              id="react-select-2-placeholder"
+                            >
+                              marketplace_relationships_organization_placeHolder
+                            </div>
+                            <div
+                              class="react-select__input-container css-qbdosj-Input"
+                              data-value=""
+                            >
+                              <input
+                                aria-autocomplete="list"
+                                aria-describedby="react-select-2-placeholder"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                                aria-label="textbox"
+                                autocapitalize="none"
+                                autocomplete="off"
+                                autocorrect="off"
+                                class="react-select__input"
+                                id="react-select-2-input"
+                                role="combobox"
+                                spellcheck="false"
+                                style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                tabindex="0"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+                          >
+                            <span
+                              class="react-select__indicator-separator css-1u9des2-indicatorSeparator"
+                            />
+                            <div
+                              aria-hidden="true"
+                              class="react-select__indicator react-select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="css-tj5bde-Svg"
+                                focusable="false"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                width="20"
+                              >
+                                <path
+                                  d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="align-items-center pb-2 row"
+                  >
+                    <div
+                      class="col-2"
+                    >
+                      <label
+                        for="site-name"
+                      >
+                        marketplace_relationships_site_label
+                      </label>
+                    </div>
+                    <div
+                      class="col-6"
+                    >
+                      <div
+                        class="react-select css-b62m3t-container"
+                      >
+                        <span
+                          class="css-1f43avz-a11yText-A11yText"
+                          id="react-select-3-live-region"
+                        />
+                        <span
+                          aria-atomic="false"
+                          aria-live="polite"
+                          aria-relevant="additions text"
+                          class="css-1f43avz-a11yText-A11yText"
+                        />
+                        <div
+                          class="react-select__control css-13cymwt-control"
+                        >
+                          <div
+                            class="react-select__value-container react-select__value-container--is-multi css-1fdsijx-ValueContainer"
+                          >
+                            <div
+                              class="react-select__placeholder css-1jqq78o-placeholder"
+                              id="react-select-3-placeholder"
+                            >
+                              marketplace_relationships_site_placeHolder
+                            </div>
+                            <div
+                              class="react-select__input-container css-qbdosj-Input"
+                              data-value=""
+                            >
+                              <input
+                                aria-autocomplete="list"
+                                aria-describedby="react-select-3-placeholder"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                                aria-label="textbox"
+                                autocapitalize="none"
+                                autocomplete="off"
+                                autocorrect="off"
+                                class="react-select__input"
+                                id="react-select-3-input"
+                                role="combobox"
+                                spellcheck="false"
+                                style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                tabindex="0"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+                          >
+                            <span
+                              class="react-select__indicator-separator css-1u9des2-indicatorSeparator"
+                            />
+                            <div
+                              aria-hidden="true"
+                              class="react-select__indicator react-select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="css-tj5bde-Svg"
+                                focusable="false"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                width="20"
+                              >
+                                <path
+                                  d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="align-items-center pb-2 row"
+                  >
+                    <div
+                      class="col-2"
+                    >
+                      <label
+                        for="locale-name"
+                      >
+                        marketplace_relationships_locale_label
+                      </label>
+                    </div>
+                    <div
+                      class="col-6"
+                    >
+                      <div
+                        class="react-select css-b62m3t-container"
+                      >
+                        <span
+                          class="css-1f43avz-a11yText-A11yText"
+                          id="react-select-4-live-region"
+                        />
+                        <span
+                          aria-atomic="false"
+                          aria-live="polite"
+                          aria-relevant="additions text"
+                          class="css-1f43avz-a11yText-A11yText"
+                        />
+                        <div
+                          class="react-select__control css-13cymwt-control"
+                        >
+                          <div
+                            class="react-select__value-container react-select__value-container--is-multi css-1fdsijx-ValueContainer"
+                          >
+                            <div
+                              class="react-select__placeholder css-1jqq78o-placeholder"
+                              id="react-select-4-placeholder"
+                            >
+                              marketplace_relationships_locale_placeHolder
+                            </div>
+                            <div
+                              class="react-select__input-container css-qbdosj-Input"
+                              data-value=""
+                            >
+                              <input
+                                aria-autocomplete="list"
+                                aria-describedby="react-select-4-placeholder"
+                                aria-expanded="false"
+                                aria-haspopup="true"
+                                aria-label="textbox"
+                                autocapitalize="none"
+                                autocomplete="off"
+                                autocorrect="off"
+                                class="react-select__input"
+                                id="react-select-4-input"
+                                role="combobox"
+                                spellcheck="false"
+                                style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                                tabindex="0"
+                                type="text"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="react-select__indicators css-1hb7zxy-IndicatorsContainer"
+                          >
+                            <span
+                              class="react-select__indicator-separator css-1u9des2-indicatorSeparator"
+                            />
+                            <div
+                              aria-hidden="true"
+                              class="react-select__indicator react-select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="css-tj5bde-Svg"
+                                focusable="false"
+                                height="20"
+                                viewBox="0 0 20 20"
+                                width="20"
+                              >
+                                <path
+                                  d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="text-center col-8"
+                    >
+                      <button
+                        class="me-2 btn btn-danger"
+                        type="button"
+                      >
+                        common_button_reset_label
+                      </button>
+                      <button
+                        class="btn btn-success"
+                        type="button"
+                      >
+                        common_button_apply_label
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="p-datatable p-component p-datatable-selectable p-datatable-resizable p-datatable-resizable-fit p-datatable-responsive-scroll data-table-mh"
+        data-scrollselectors=".p-datatable-wrapper"
+        pr_id_1=""
+      >
+        <div
+          class="p-datatable-header"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="d-flex justify-content-start align-items-center"
+            >
+              <div
+                class="btn-mr-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8"
+              >
+                <span
+                  class="p-input-icon-right d-block"
+                >
+                  <input
+                    class="p-inputtext p-component"
+                    placeholder="common_input_search_placeHolder"
+                    value=""
+                  />
+                </span>
+              </div>
+              <button
+                class="btn-h-95 btn btn-primary"
+                type="button"
+              >
+                common_button_search_label
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-datatable-wrapper"
+        >
+          <table
+            class="p-datatable-table"
+            role="table"
+          >
+            <thead
+              class="p-datatable-thead"
+            >
+              <tr
+                role="row"
+              >
+                <th
+                  aria-sort="ascending"
+                  class="p-sortable-column p-resizable-column p-highlight"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <span
+                    class="p-column-resizer"
+                  />
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      marketplace_relationships_column_header_organization
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                    />
+                  </div>
+                </th>
+                <th
+                  aria-sort="none"
+                  class="p-sortable-column p-resizable-column"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <span
+                    class="p-column-resizer"
+                  />
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      marketplace_relationships_column_header_site
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                    />
+                  </div>
+                </th>
+                <th
+                  aria-sort="none"
+                  class="p-sortable-column p-resizable-column"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <span
+                    class="p-column-resizer"
+                  />
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      marketplace_relationships_column_header_locale
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                    />
+                  </div>
+                </th>
+                <th
+                  aria-sort="none"
+                  class="p-sortable-column p-resizable-column"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <span
+                    class="p-column-resizer"
+                  />
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      marketplace_relationships_column_header_marketplace
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                    />
+                  </div>
+                </th>
+                <th
+                  aria-sort="none"
+                  class="p-sortable-column p-resizable-column"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <span
+                    class="p-column-resizer"
+                  />
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      marketplace_relationships_column_header_status
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                    />
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="p-datatable-tbody"
+            >
+              <tr
+                class="p-datatable-emptymessage"
+                role="row"
+              >
+                <td
+                  colspan="5"
+                  role="cell"
+                >
+                  marketplace_relationships_table_empty_message
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="p-paginator p-component p-paginator-bottom table-paginator"
+        >
+          <div
+            class="p-paginator-left-content"
+          >
+            <button
+              aria-label="refresh-button"
+              class="p-button p-component p-button-text p-button-icon-only"
+              type="button"
+            >
+              <span
+                class="p-button-icon p-c pi pi-refresh"
+              />
+              <span
+                class="p-button-label p-c"
+              >
+                 
+              </span>
+            </button>
+          </div>
+          <button
+            class="p-paginator-first p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-2"
+            >
+              organization_paginator_first
+            </span>
+          </button>
+          <button
+            class="p-paginator-prev p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-3"
+            >
+              organization_paginator_previous
+            </span>
+          </button>
+          <span
+            class="p-paginator-pages"
+          />
+          <button
+            class="p-paginator-next p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-3"
+            >
+              organization_paginator_next
+            </span>
+          </button>
+          <button
+            class="p-paginator-last p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-2"
+            >
+              organization_paginator_last
+            </span>
+          </button>
+          <div
+            class="p-dropdown p-component p-inputwrapper dropdown-table-input opacity-md p-disabled p-inputwrapper-filled"
+          >
+            <div
+              class="p-hidden-accessible"
+            >
+              <input
+                aria-haspopup="listbox"
+                aria-label="textbox"
+                disabled=""
+                readonly=""
+                type="text"
+              />
+            </div>
+            <div
+              class="p-hidden-accessible p-dropdown-hidden-select"
+            >
+              <select
+                aria-hidden="true"
+                tabindex="-1"
+              >
+                <option
+                  value=""
+                />
+                <option
+                  value="10"
+                >
+                  10
+                </option>
+              </select>
+            </div>
+            <span
+              class="p-dropdown-label p-inputtext"
+            >
+              10
+            </span>
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-label="dropdown-trigger"
+              class="p-dropdown-trigger"
+              role="button"
+            >
+              <span
+                class="p-dropdown-trigger-icon p-clickable pi pi-chevron-down"
+              />
+            </div>
+          </div>
+          <span
+            style="user-select: none; text-align: center; margin-left: auto;"
+          >
+            organization_paginator_show_report
+          </span>
+          <div
+            class="p-paginator-right-content"
+          />
+        </div>
+        <div
+          class="p-column-resizer-helper"
+          style="display: none;"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

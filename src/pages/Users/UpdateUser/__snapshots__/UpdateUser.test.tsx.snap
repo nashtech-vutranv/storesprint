@@ -1,0 +1,579 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Update User Page should match snapshot with data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body />,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Update User Page should match snapshot without data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card-form mt-3 card"
+      >
+        <div
+          class="card-header"
+        >
+          <h4
+            class="card-form__title"
+          >
+            user_edit_page_title
+          </h4>
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <form
+              autocomplete="on"
+              class="form-layout"
+            >
+              <div
+                class="container-fluid"
+              >
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      for="id"
+                    >
+                      Id
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      aria-label="disabled"
+                      class="p-inputtext p-component p-disabled p-1"
+                      disabled=""
+                      id="id"
+                      name="id"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      for="erpId"
+                    >
+                      organization_details_erpId
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      aria-label="disabled"
+                      class="p-inputtext p-component p-disabled w-full p-1"
+                      disabled=""
+                      id="erpId"
+                      maxlength="16"
+                      name="erpId"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                />
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      class="required"
+                      for="firstName"
+                    >
+                      user_form_first_name
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      class="p-inputtext p-component w-full p-1"
+                      id="firstName"
+                      maxlength="128"
+                      name="firstName"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      class="required"
+                      for="lastName"
+                    >
+                      user_form_last_name
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      class="p-inputtext p-component w-full p-1"
+                      id="lastName"
+                      maxlength="128"
+                      name="lastName"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      class="required"
+                      for="contactEmailAddress"
+                    >
+                      user_form_email_address
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      aria-label="disabled"
+                      class="p-inputtext p-component p-disabled w-full p-1"
+                      disabled=""
+                      id="emailAddress"
+                      maxlength="256"
+                      name="emailAddress"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                />
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      class=""
+                      for="isActive"
+                    >
+                      organization_details_status_active
+                    </label>
+                  </div>
+                  <div
+                    class="col-8"
+                  >
+                    <div
+                      class="p-inputswitch p-component p-inputswitch-checked p-disabled"
+                    >
+                      <div
+                        class="p-hidden-accessible"
+                      >
+                        <input
+                          aria-checked="true"
+                          aria-label="input-checkbox"
+                          checked=""
+                          disabled=""
+                          name="status"
+                          type="checkbox"
+                        />
+                      </div>
+                      <span
+                        class="p-inputswitch-slider"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-8 offset-4"
+                  >
+                    <button
+                      class="me-2 btn btn-danger"
+                      type="button"
+                    >
+                      common_confirm_cancel
+                    </button>
+                    <button
+                      class="me-2 btn btn-success"
+                      disabled=""
+                      type="button"
+                    >
+                      common_confirm_save
+                    </button>
+                    <button
+                      class="me-2 btn btn-primary"
+                      type="button"
+                    >
+                      user_form_button_assigned_resources
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card-form mt-3 card"
+    >
+      <div
+        class="card-header"
+      >
+        <h4
+          class="card-form__title"
+        >
+          user_edit_page_title
+        </h4>
+      </div>
+      <div
+        class="card-body"
+      >
+        <div
+          class="row"
+        >
+          <form
+            autocomplete="on"
+            class="form-layout"
+          >
+            <div
+              class="container-fluid"
+            >
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="id"
+                  >
+                    Id
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled p-1"
+                    disabled=""
+                    id="id"
+                    name="id"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="erpId"
+                  >
+                    organization_details_erpId
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="erpId"
+                    maxlength="16"
+                    name="erpId"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              />
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    class="required"
+                    for="firstName"
+                  >
+                    user_form_first_name
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    class="p-inputtext p-component w-full p-1"
+                    id="firstName"
+                    maxlength="128"
+                    name="firstName"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    class="required"
+                    for="lastName"
+                  >
+                    user_form_last_name
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    class="p-inputtext p-component w-full p-1"
+                    id="lastName"
+                    maxlength="128"
+                    name="lastName"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    class="required"
+                    for="contactEmailAddress"
+                  >
+                    user_form_email_address
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="emailAddress"
+                    maxlength="256"
+                    name="emailAddress"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              />
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    class=""
+                    for="isActive"
+                  >
+                    organization_details_status_active
+                  </label>
+                </div>
+                <div
+                  class="col-8"
+                >
+                  <div
+                    class="p-inputswitch p-component p-inputswitch-checked p-disabled"
+                  >
+                    <div
+                      class="p-hidden-accessible"
+                    >
+                      <input
+                        aria-checked="true"
+                        aria-label="input-checkbox"
+                        checked=""
+                        disabled=""
+                        name="status"
+                        type="checkbox"
+                      />
+                    </div>
+                    <span
+                      class="p-inputswitch-slider"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-8 offset-4"
+                >
+                  <button
+                    class="me-2 btn btn-danger"
+                    type="button"
+                  >
+                    common_confirm_cancel
+                  </button>
+                  <button
+                    class="me-2 btn btn-success"
+                    disabled=""
+                    type="button"
+                  >
+                    common_confirm_save
+                  </button>
+                  <button
+                    class="me-2 btn btn-primary"
+                    type="button"
+                  >
+                    user_form_button_assigned_resources
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

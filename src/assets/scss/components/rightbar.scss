@@ -1,0 +1,21 @@
+// .end-bar {
+//   z-index: 1000;
+// }
+
+.rightbar-overlay {
+  background-color: transparent;
+}
+
+.end-bar .rightbar-title {
+  background: var(--ct-bg-leftbar-gradient);
+}
+
+.alert-warning {
+  background-color: #564839;
+}
+
+body[data-layout-color='light'] {
+  .end-bar .rightbar-title {
+    background-color: var(--ct-rightbar-title-bg);
+  }
+}

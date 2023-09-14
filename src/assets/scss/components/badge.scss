@@ -1,0 +1,22 @@
+.badge {
+  font-size: 0.9em;
+  padding: 0.3rem;
+}
+
+.bg-primary {
+  background-color: #93c5fd !important;
+  color: inherit;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+body[data-layout-color=dark] {
+  .bg-info {
+    background-color: #227b96 !important;
+  }
+  .bg-primary {
+    color: #fff !important;
+  }
+}

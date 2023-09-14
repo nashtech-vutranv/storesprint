@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Add Value Mapping Page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="breadcrumb"
+      >
+        <ol
+          class="breadcrumb m-0"
+        >
+          <li
+            class="breadcrumb-item"
+          >
+            <a
+              href="/product-category-mappings"
+            >
+              <span>
+                product_category_mappings_page_title
+              </span>
+            </a>
+          </li>
+          <li
+            class="breadcrumb-item"
+          >
+            <a
+              href="/product-property-mappings//"
+            >
+              <span>
+                 
+                product_property_mappings_page_title
+                 
+              </span>
+            </a>
+          </li>
+          <li
+            class="breadcrumb-item"
+          >
+            <a
+              href="/product-property-mappings///"
+            >
+              <span>
+                 
+                null / null
+                 
+              </span>
+            </a>
+          </li>
+          <li
+            aria-current="page"
+            class="breadcrumb-item active"
+          >
+            <span>
+               
+              product_value_mapping_page_title
+               
+            </span>
+          </li>
+        </ol>
+      </nav>
+      <div
+        class="row"
+      >
+        <div
+          class="col-12"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              <h4
+                class="card-form__title"
+              >
+                product_value_mapping_page_title
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-datatable p-component p-datatable-selectable p-datatable-responsive-stack"
+          data-scrollselectors=".p-datatable-wrapper"
+          pr_id_1=""
+        >
+          <div
+            class="p-datatable-header"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="d-flex justify-content-start align-items-center"
+              >
+                <div
+                  class="btn-mr-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 d-flex"
+                >
+                  <input
+                    class="p-inputtext p-component w-100"
+                    placeholder="common_input_search_placeHolder"
+                    value=""
+                  />
+                </div>
+                <button
+                  class="btn-h-95 btn btn-primary"
+                  type="button"
+                >
+                  common_button_search_label
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-datatable-wrapper"
+          >
+            <table
+              class="p-datatable-table table-mapping w-full"
+              role="table"
+            >
+              <thead
+                class="p-datatable-thead"
+              >
+                <tr
+                  role="row"
+                >
+                  <th
+                    aria-sort="ascending"
+                    class="max-w-2/5 p-sortable-column p-highlight"
+                    role="columnheader"
+                    tabindex="0"
+                  >
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        product_value_mapping_column_header_marketplace_product_property_value
+                      </span>
+                      <span
+                        class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                      />
+                    </div>
+                  </th>
+                  <th
+                    class="max-w-2/5"
+                    role="columnheader"
+                  >
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      >
+                        product_value_mapping_column_header_mms_product_property_value
+                      </span>
+                    </div>
+                  </th>
+                  <th
+                    class="max-w-1/5"
+                    role="columnheader"
+                  >
+                    <div
+                      class="p-column-header-content"
+                    >
+                      <span
+                        class="p-column-title"
+                      />
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                class="p-datatable-tbody"
+              >
+                <tr
+                  class="p-datatable-emptymessage"
+                  role="row"
+                >
+                  <td
+                    colspan="3"
+                    role="cell"
+                  >
+                    No available options
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div
+            class="p-paginator p-component p-paginator-bottom table-paginator paginator-mapping"
+          >
+            <div
+              class="p-paginator-left-content"
+            >
+              <button
+                aria-label="refresh-button"
+                class="p-button p-component p-button-text p-button-icon-only"
+                type="button"
+              >
+                <span
+                  class="p-button-icon p-c pi pi-refresh"
+                />
+                <span
+                  class="p-button-label p-c"
+                >
+                   
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="breadcrumb"
+    >
+      <ol
+        class="breadcrumb m-0"
+      >
+        <li
+          class="breadcrumb-item"
+        >
+          <a
+            href="/product-category-mappings"
+          >
+            <span>
+              product_category_mappings_page_title
+            </span>
+          </a>
+        </li>
+        <li
+          class="breadcrumb-item"
+        >
+          <a
+            href="/product-property-mappings//"
+          >
+            <span>
+               
+              product_property_mappings_page_title
+               
+            </span>
+          </a>
+        </li>
+        <li
+          class="breadcrumb-item"
+        >
+          <a
+            href="/product-property-mappings///"
+          >
+            <span>
+               
+              null / null
+               
+            </span>
+          </a>
+        </li>
+        <li
+          aria-current="page"
+          class="breadcrumb-item active"
+        >
+          <span>
+             
+            product_value_mapping_page_title
+             
+          </span>
+        </li>
+      </ol>
+    </nav>
+    <div
+      class="row"
+    >
+      <div
+        class="col-12"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-header"
+          >
+            <h4
+              class="card-form__title"
+            >
+              product_value_mapping_page_title
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        class="p-datatable p-component p-datatable-selectable p-datatable-responsive-stack"
+        data-scrollselectors=".p-datatable-wrapper"
+        pr_id_1=""
+      >
+        <div
+          class="p-datatable-header"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="d-flex justify-content-start align-items-center"
+            >
+              <div
+                class="btn-mr-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 d-flex"
+              >
+                <input
+                  class="p-inputtext p-component w-100"
+                  placeholder="common_input_search_placeHolder"
+                  value=""
+                />
+              </div>
+              <button
+                class="btn-h-95 btn btn-primary"
+                type="button"
+              >
+                common_button_search_label
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-datatable-wrapper"
+        >
+          <table
+            class="p-datatable-table table-mapping w-full"
+            role="table"
+          >
+            <thead
+              class="p-datatable-thead"
+            >
+              <tr
+                role="row"
+              >
+                <th
+                  aria-sort="ascending"
+                  class="max-w-2/5 p-sortable-column p-highlight"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      product_value_mapping_column_header_marketplace_product_property_value
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                    />
+                  </div>
+                </th>
+                <th
+                  class="max-w-2/5"
+                  role="columnheader"
+                >
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      product_value_mapping_column_header_mms_product_property_value
+                    </span>
+                  </div>
+                </th>
+                <th
+                  class="max-w-1/5"
+                  role="columnheader"
+                >
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    />
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="p-datatable-tbody"
+            >
+              <tr
+                class="p-datatable-emptymessage"
+                role="row"
+              >
+                <td
+                  colspan="3"
+                  role="cell"
+                >
+                  No available options
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="p-paginator p-component p-paginator-bottom table-paginator paginator-mapping"
+        >
+          <div
+            class="p-paginator-left-content"
+          >
+            <button
+              aria-label="refresh-button"
+              class="p-button p-component p-button-text p-button-icon-only"
+              type="button"
+            >
+              <span
+                class="p-button-icon p-c pi pi-refresh"
+              />
+              <span
+                class="p-button-label p-c"
+              >
+                 
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

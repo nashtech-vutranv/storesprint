@@ -1,0 +1,66 @@
+.p-input-icon-right > i:last-of-type {
+  right: 2rem;
+}
+
+.icon-refresh-hp {
+  font-size: 1.6rem;
+  position: absolute;
+  left: 19rem;
+  bottom: 5.5rem;
+  cursor: pointer;
+  width: initial;
+  z-index: 6;
+}
+
+.icon-hide {
+  display: none;
+}
+
+.dripicons-cross, .dripicons-checkmark {
+  cursor: pointer;
+  transform: scale(2);
+}
+
+.dripicon-integration-container {
+  background: #0acf97;
+  border-radius: 50%;
+}
+
+.dripicon-integrate-success {
+  transform: none;
+  color: white;
+  padding-left: 2.75px;
+  padding-right: 2.75px
+}
+
+.dripicons-md-size {
+  transform: scale(1.5);
+}
+
+// .close-icon {
+//   color: #ea0633;
+// }
+
+.close-icon:hover {
+  color: #f91f4a;
+}
+
+// .tick-icon {
+//   color: #227b96;
+// }
+
+.tick-icon:hover {
+  color: #3095b2;
+}
+
+.hidden-icon {
+  visibility: hidden;
+}
+
+body[data-layout-color='light'] {
+    .p-input-icon-right {
+      .close-icon {
+        color: #4b5258;
+      }
+  }
+}

@@ -1,0 +1,50 @@
+.p-dialog-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.p-dialog {
+  margin-top: 1rem !important;
+}
+
+.p-dialog-title {
+  text-align: center;
+}
+
+.p-mb-md {
+  margin-bottom: 1rem;
+}
+
+.popover-body {
+  padding: 1rem 1.5rem;
+}
+
+body[data-layout-color=light] {
+  .p-dialog {
+    border: 1px solid#f2f2f2;
+    color: black;
+  }
+
+  .p-dialog-header, .p-dialog-content, .p-dialog-footer {
+    background: #f2f2f2;
+    color: black;
+  }
+}
+
+body[modal=open] {
+  overflow: hidden;
+}
+
+body[modal=close] {
+  overflow: scroll;
+}
+
+.open-modal {
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.error-modal {
+  width: 28vw;
+}
+

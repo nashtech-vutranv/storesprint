@@ -1,0 +1,1 @@
+export {default as UpsLayout} from './UpsLayout'

@@ -1,0 +1,3 @@
+import AssignProductMessageDialog from './AssignProductMessageDialog'
+
+export default AssignProductMessageDialog

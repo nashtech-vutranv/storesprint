@@ -1,0 +1,1697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot with error from API 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body />,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`should match snapshot with successfully data from api 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card-form mt-3 card"
+      >
+        <div
+          class="card-header"
+        >
+          <h4
+            class="card-form__title"
+          >
+            order_detail_title
+          </h4>
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="container-fluid"
+            >
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="id"
+                  >
+                    order_detail_id
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="id"
+                    name="id"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="erpId"
+                  >
+                    order_detail_erpId
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="erpId"
+                    name="erpId"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="marketplaceOrderNumber"
+                  >
+                    order_detail_marketplace_order_number
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="marketplaceOrderNumber"
+                    name="marketplaceOrderNumber"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="createdAt"
+                  >
+                    order_detail_createdAt
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled p-filled w-full p-1"
+                    disabled=""
+                    id="createdAt"
+                    name="createdAt"
+                    value="Invalid date"
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="countryCode"
+                  >
+                    order_detail_country_code
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="countryCode"
+                    name="countryCode"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="totalAmount"
+                  >
+                    order_detail_total_amount
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="totalAmount"
+                    name="totalAmount"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="currency"
+                  >
+                    order_detail_currency
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="currency"
+                    name="currency"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="deliveryType"
+                  >
+                    order_detail_delivery_type
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="deliveryType"
+                    name="deliveryType"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="shippingCost"
+                  >
+                    order_detail_delivery_cost
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="shippingCost"
+                    name="shippingCost"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    for="orderStatus"
+                  >
+                    order_detail_order_status
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    aria-label="disabled"
+                    class="p-inputtext p-component p-disabled w-full p-1"
+                    disabled=""
+                    id="orderStatus"
+                    name="orderStatus"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="mt-4 row"
+              >
+                <div
+                  class="container-fluid"
+                >
+                  <div
+                    class="bg-nav-pills nav nav-pills nav-justified"
+                    role="tablist"
+                  >
+                    <div
+                      class="nav-item"
+                    >
+                      <a
+                        aria-controls="react-aria6550736859-1-tabpane-order_detail_tab_orderlines"
+                        aria-selected="true"
+                        class="nav-link active"
+                        data-rr-ui-event-key="order_detail_tab_orderlines"
+                        href="/"
+                        id="react-aria6550736859-1-tab-order_detail_tab_orderlines"
+                        role="tab"
+                      >
+                        <i
+                          class="d-md-none d-block me-1"
+                        />
+                        <span
+                          class="d-none d-md-block"
+                        >
+                          order_detail_tab_orderlines
+                        </span>
+                      </a>
+                    </div>
+                    <div
+                      class="nav-item"
+                    >
+                      <a
+                        aria-controls="react-aria6550736859-1-tabpane-order_detail_tab_shipments"
+                        aria-selected="false"
+                        class="nav-link"
+                        data-rr-ui-event-key="order_detail_tab_shipments"
+                        href="/"
+                        id="react-aria6550736859-1-tab-order_detail_tab_shipments"
+                        role="tab"
+                        tabindex="-1"
+                      >
+                        <i
+                          class="d-md-none d-block me-1"
+                        />
+                        <span
+                          class="d-none d-md-block"
+                        >
+                          order_detail_tab_shipments
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-content"
+                  >
+                    <div
+                      aria-labelledby="react-aria6550736859-1-tab-order_detail_tab_orderlines"
+                      class="fade tab-pane active show"
+                      id="react-aria6550736859-1-tabpane-order_detail_tab_orderlines"
+                      role="tabpanel"
+                    >
+                      <div
+                        class="row"
+                      >
+                        <div
+                          class="col-sm-12"
+                        >
+                          <div
+                            class="p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll data-table-mh mt-4"
+                            data-scrollselectors=".p-datatable-wrapper"
+                            pr_id_1=""
+                          >
+                            <div
+                              class="p-datatable-wrapper"
+                            >
+                              <table
+                                class="p-datatable-table"
+                                role="table"
+                              >
+                                <thead
+                                  class="p-datatable-thead"
+                                >
+                                  <tr
+                                    role="row"
+                                  >
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_product_erp_id
+                                        </span>
+                                      </div>
+                                    </th>
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_name
+                                        </span>
+                                      </div>
+                                    </th>
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_quantity
+                                        </span>
+                                      </div>
+                                    </th>
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_price
+                                        </span>
+                                      </div>
+                                    </th>
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_tax
+                                        </span>
+                                      </div>
+                                    </th>
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_orderline_status
+                                        </span>
+                                      </div>
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody
+                                  class="p-datatable-tbody"
+                                >
+                                  <tr
+                                    class="p-datatable-emptymessage"
+                                    role="row"
+                                  >
+                                    <td
+                                      colspan="6"
+                                      role="cell"
+                                    >
+                                      order_detail_table_no_data
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div
+                              class="p-paginator p-component p-paginator-bottom table-paginator"
+                            >
+                              <div
+                                class="p-paginator-left-content"
+                              >
+                                <button
+                                  aria-label="refresh-button"
+                                  class="p-button p-component p-button-text refresh-button p-button-icon-only"
+                                  type="button"
+                                >
+                                  <span
+                                    class="p-button-icon p-c pi pi-refresh"
+                                  />
+                                  <span
+                                    class="p-button-label p-c"
+                                  >
+                                     
+                                  </span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      aria-labelledby="react-aria6550736859-1-tab-order_detail_tab_shipments"
+                      class="fade tab-pane"
+                      id="react-aria6550736859-1-tabpane-order_detail_tab_shipments"
+                      role="tabpanel"
+                    >
+                      <div
+                        class="row"
+                      >
+                        <div
+                          class="col-sm-12"
+                        >
+                          <div
+                            class="p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll data-table-mh mt-4"
+                            data-scrollselectors=".p-datatable-wrapper"
+                            pr_id_2=""
+                          >
+                            <div
+                              class="p-datatable-wrapper"
+                            >
+                              <table
+                                class="p-datatable-table"
+                                role="table"
+                              >
+                                <thead
+                                  class="p-datatable-thead"
+                                >
+                                  <tr
+                                    role="row"
+                                  >
+                                    <th
+                                      aria-sort="ascending"
+                                      class="p-sortable-column p-highlight"
+                                      role="columnheader"
+                                      tabindex="0"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_shipment_number
+                                        </span>
+                                        <span
+                                          class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                                        />
+                                      </div>
+                                    </th>
+                                    <th
+                                      aria-sort="none"
+                                      class="p-sortable-column"
+                                      role="columnheader"
+                                      tabindex="0"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_product_name
+                                        </span>
+                                        <span
+                                          class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                                        />
+                                      </div>
+                                    </th>
+                                    <th
+                                      aria-sort="none"
+                                      class="p-sortable-column"
+                                      role="columnheader"
+                                      tabindex="0"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_quantity
+                                        </span>
+                                        <span
+                                          class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                                        />
+                                      </div>
+                                    </th>
+                                    <th
+                                      aria-sort="none"
+                                      class="p-sortable-column"
+                                      role="columnheader"
+                                      tabindex="0"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_despatched_date
+                                        </span>
+                                        <span
+                                          class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                                        />
+                                      </div>
+                                    </th>
+                                    <th
+                                      class=""
+                                      role="columnheader"
+                                    >
+                                      <div
+                                        class="p-column-header-content"
+                                      >
+                                        <span
+                                          class="p-column-title"
+                                        >
+                                          order_detail_table_tracking_url
+                                        </span>
+                                      </div>
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody
+                                  class="p-datatable-tbody"
+                                >
+                                  <tr
+                                    class="p-datatable-emptymessage"
+                                    role="row"
+                                  >
+                                    <td
+                                      colspan="5"
+                                      role="cell"
+                                    >
+                                      order_detail_table_no_data
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div
+                              class="p-paginator p-component p-paginator-bottom table-paginator"
+                            >
+                              <div
+                                class="p-paginator-left-content"
+                              >
+                                <button
+                                  aria-label="refresh-button"
+                                  class="p-button p-component p-button-text refresh-button p-button-icon-only"
+                                  type="button"
+                                >
+                                  <span
+                                    class="p-button-icon p-c pi pi-refresh"
+                                  />
+                                  <span
+                                    class="p-button-label p-c"
+                                  >
+                                     
+                                  </span>
+                                </button>
+                              </div>
+                              <button
+                                class="p-paginator-first p-paginator-element p-link p-disabled"
+                                disabled=""
+                                type="button"
+                              >
+                                <span
+                                  class="p-2"
+                                >
+                                  organization_paginator_first
+                                </span>
+                              </button>
+                              <button
+                                class="p-paginator-prev p-paginator-element p-link p-disabled"
+                                disabled=""
+                                type="button"
+                              >
+                                <span
+                                  class="p-3"
+                                >
+                                  organization_paginator_previous
+                                </span>
+                              </button>
+                              <span
+                                class="p-paginator-pages"
+                              />
+                              <button
+                                class="p-paginator-next p-paginator-element p-link p-disabled"
+                                disabled=""
+                                type="button"
+                              >
+                                <span
+                                  class="p-3"
+                                >
+                                  organization_paginator_next
+                                </span>
+                              </button>
+                              <button
+                                class="p-paginator-last p-paginator-element p-link p-disabled"
+                                disabled=""
+                                type="button"
+                              >
+                                <span
+                                  class="p-2"
+                                >
+                                  organization_paginator_last
+                                </span>
+                              </button>
+                              <div
+                                class="p-dropdown p-component p-inputwrapper dropdown-table-input opacity-md p-disabled p-inputwrapper-filled"
+                              >
+                                <div
+                                  class="p-hidden-accessible"
+                                >
+                                  <input
+                                    aria-haspopup="listbox"
+                                    aria-label="textbox"
+                                    disabled=""
+                                    readonly=""
+                                    type="text"
+                                  />
+                                </div>
+                                <div
+                                  class="p-hidden-accessible p-dropdown-hidden-select"
+                                >
+                                  <select
+                                    aria-hidden="true"
+                                    tabindex="-1"
+                                  >
+                                    <option
+                                      value=""
+                                    />
+                                    <option
+                                      value="10"
+                                    >
+                                      10
+                                    </option>
+                                  </select>
+                                </div>
+                                <span
+                                  class="p-dropdown-label p-inputtext"
+                                >
+                                  10
+                                </span>
+                                <div
+                                  aria-expanded="false"
+                                  aria-haspopup="listbox"
+                                  aria-label="dropdown-trigger"
+                                  class="p-dropdown-trigger"
+                                  role="button"
+                                >
+                                  <span
+                                    class="p-dropdown-trigger-icon p-clickable pi pi-chevron-down"
+                                  />
+                                </div>
+                              </div>
+                              <span
+                                style="user-select: none; text-align: center; margin-left: auto;"
+                              >
+                                organization_paginator_show_report
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      aria-labelledby="react-aria6550736859-1-tab-order_detail_tab_status_history"
+                      class="fade tab-pane"
+                      id="react-aria6550736859-1-tabpane-order_detail_tab_status_history"
+                      role="tabpanel"
+                    >
+                      Status history
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-2 row"
+              >
+                <div
+                  class="col"
+                >
+                  <div
+                    class="d-flex justify-content-center"
+                  >
+                    <button
+                      class="me-2 btn btn-primary"
+                      type="button"
+                    >
+                      common_confirm_close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card-form mt-3 card"
+    >
+      <div
+        class="card-header"
+      >
+        <h4
+          class="card-form__title"
+        >
+          order_detail_title
+        </h4>
+      </div>
+      <div
+        class="card-body"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="container-fluid"
+          >
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="id"
+                >
+                  order_detail_id
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="id"
+                  name="id"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="erpId"
+                >
+                  order_detail_erpId
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="erpId"
+                  name="erpId"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="marketplaceOrderNumber"
+                >
+                  order_detail_marketplace_order_number
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="marketplaceOrderNumber"
+                  name="marketplaceOrderNumber"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="createdAt"
+                >
+                  order_detail_createdAt
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled p-filled w-full p-1"
+                  disabled=""
+                  id="createdAt"
+                  name="createdAt"
+                  value="Invalid date"
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="countryCode"
+                >
+                  order_detail_country_code
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="countryCode"
+                  name="countryCode"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="totalAmount"
+                >
+                  order_detail_total_amount
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="totalAmount"
+                  name="totalAmount"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="currency"
+                >
+                  order_detail_currency
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="currency"
+                  name="currency"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="deliveryType"
+                >
+                  order_detail_delivery_type
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="deliveryType"
+                  name="deliveryType"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="shippingCost"
+                >
+                  order_detail_delivery_cost
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="shippingCost"
+                  name="shippingCost"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="align-items-center py-1 row"
+            >
+              <div
+                class="col-4"
+              >
+                <label
+                  for="orderStatus"
+                >
+                  order_detail_order_status
+                </label>
+              </div>
+              <div
+                class="p-fluid col-8"
+              >
+                <input
+                  aria-label="disabled"
+                  class="p-inputtext p-component p-disabled w-full p-1"
+                  disabled=""
+                  id="orderStatus"
+                  name="orderStatus"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="mt-4 row"
+            >
+              <div
+                class="container-fluid"
+              >
+                <div
+                  class="bg-nav-pills nav nav-pills nav-justified"
+                  role="tablist"
+                >
+                  <div
+                    class="nav-item"
+                  >
+                    <a
+                      aria-controls="react-aria6550736859-1-tabpane-order_detail_tab_orderlines"
+                      aria-selected="true"
+                      class="nav-link active"
+                      data-rr-ui-event-key="order_detail_tab_orderlines"
+                      href="/"
+                      id="react-aria6550736859-1-tab-order_detail_tab_orderlines"
+                      role="tab"
+                    >
+                      <i
+                        class="d-md-none d-block me-1"
+                      />
+                      <span
+                        class="d-none d-md-block"
+                      >
+                        order_detail_tab_orderlines
+                      </span>
+                    </a>
+                  </div>
+                  <div
+                    class="nav-item"
+                  >
+                    <a
+                      aria-controls="react-aria6550736859-1-tabpane-order_detail_tab_shipments"
+                      aria-selected="false"
+                      class="nav-link"
+                      data-rr-ui-event-key="order_detail_tab_shipments"
+                      href="/"
+                      id="react-aria6550736859-1-tab-order_detail_tab_shipments"
+                      role="tab"
+                      tabindex="-1"
+                    >
+                      <i
+                        class="d-md-none d-block me-1"
+                      />
+                      <span
+                        class="d-none d-md-block"
+                      >
+                        order_detail_tab_shipments
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="tab-content"
+                >
+                  <div
+                    aria-labelledby="react-aria6550736859-1-tab-order_detail_tab_orderlines"
+                    class="fade tab-pane active show"
+                    id="react-aria6550736859-1-tabpane-order_detail_tab_orderlines"
+                    role="tabpanel"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <div
+                        class="col-sm-12"
+                      >
+                        <div
+                          class="p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll data-table-mh mt-4"
+                          data-scrollselectors=".p-datatable-wrapper"
+                          pr_id_1=""
+                        >
+                          <div
+                            class="p-datatable-wrapper"
+                          >
+                            <table
+                              class="p-datatable-table"
+                              role="table"
+                            >
+                              <thead
+                                class="p-datatable-thead"
+                              >
+                                <tr
+                                  role="row"
+                                >
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_product_erp_id
+                                      </span>
+                                    </div>
+                                  </th>
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_name
+                                      </span>
+                                    </div>
+                                  </th>
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_quantity
+                                      </span>
+                                    </div>
+                                  </th>
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_price
+                                      </span>
+                                    </div>
+                                  </th>
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_tax
+                                      </span>
+                                    </div>
+                                  </th>
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_orderline_status
+                                      </span>
+                                    </div>
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody
+                                class="p-datatable-tbody"
+                              >
+                                <tr
+                                  class="p-datatable-emptymessage"
+                                  role="row"
+                                >
+                                  <td
+                                    colspan="6"
+                                    role="cell"
+                                  >
+                                    order_detail_table_no_data
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div
+                            class="p-paginator p-component p-paginator-bottom table-paginator"
+                          >
+                            <div
+                              class="p-paginator-left-content"
+                            >
+                              <button
+                                aria-label="refresh-button"
+                                class="p-button p-component p-button-text refresh-button p-button-icon-only"
+                                type="button"
+                              >
+                                <span
+                                  class="p-button-icon p-c pi pi-refresh"
+                                />
+                                <span
+                                  class="p-button-label p-c"
+                                >
+                                   
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-labelledby="react-aria6550736859-1-tab-order_detail_tab_shipments"
+                    class="fade tab-pane"
+                    id="react-aria6550736859-1-tabpane-order_detail_tab_shipments"
+                    role="tabpanel"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <div
+                        class="col-sm-12"
+                      >
+                        <div
+                          class="p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll data-table-mh mt-4"
+                          data-scrollselectors=".p-datatable-wrapper"
+                          pr_id_2=""
+                        >
+                          <div
+                            class="p-datatable-wrapper"
+                          >
+                            <table
+                              class="p-datatable-table"
+                              role="table"
+                            >
+                              <thead
+                                class="p-datatable-thead"
+                              >
+                                <tr
+                                  role="row"
+                                >
+                                  <th
+                                    aria-sort="ascending"
+                                    class="p-sortable-column p-highlight"
+                                    role="columnheader"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_shipment_number
+                                      </span>
+                                      <span
+                                        class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                                      />
+                                    </div>
+                                  </th>
+                                  <th
+                                    aria-sort="none"
+                                    class="p-sortable-column"
+                                    role="columnheader"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_product_name
+                                      </span>
+                                      <span
+                                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                                      />
+                                    </div>
+                                  </th>
+                                  <th
+                                    aria-sort="none"
+                                    class="p-sortable-column"
+                                    role="columnheader"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_quantity
+                                      </span>
+                                      <span
+                                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                                      />
+                                    </div>
+                                  </th>
+                                  <th
+                                    aria-sort="none"
+                                    class="p-sortable-column"
+                                    role="columnheader"
+                                    tabindex="0"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_despatched_date
+                                      </span>
+                                      <span
+                                        class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                                      />
+                                    </div>
+                                  </th>
+                                  <th
+                                    class=""
+                                    role="columnheader"
+                                  >
+                                    <div
+                                      class="p-column-header-content"
+                                    >
+                                      <span
+                                        class="p-column-title"
+                                      >
+                                        order_detail_table_tracking_url
+                                      </span>
+                                    </div>
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody
+                                class="p-datatable-tbody"
+                              >
+                                <tr
+                                  class="p-datatable-emptymessage"
+                                  role="row"
+                                >
+                                  <td
+                                    colspan="5"
+                                    role="cell"
+                                  >
+                                    order_detail_table_no_data
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div
+                            class="p-paginator p-component p-paginator-bottom table-paginator"
+                          >
+                            <div
+                              class="p-paginator-left-content"
+                            >
+                              <button
+                                aria-label="refresh-button"
+                                class="p-button p-component p-button-text refresh-button p-button-icon-only"
+                                type="button"
+                              >
+                                <span
+                                  class="p-button-icon p-c pi pi-refresh"
+                                />
+                                <span
+                                  class="p-button-label p-c"
+                                >
+                                   
+                                </span>
+                              </button>
+                            </div>
+                            <button
+                              class="p-paginator-first p-paginator-element p-link p-disabled"
+                              disabled=""
+                              type="button"
+                            >
+                              <span
+                                class="p-2"
+                              >
+                                organization_paginator_first
+                              </span>
+                            </button>
+                            <button
+                              class="p-paginator-prev p-paginator-element p-link p-disabled"
+                              disabled=""
+                              type="button"
+                            >
+                              <span
+                                class="p-3"
+                              >
+                                organization_paginator_previous
+                              </span>
+                            </button>
+                            <span
+                              class="p-paginator-pages"
+                            />
+                            <button
+                              class="p-paginator-next p-paginator-element p-link p-disabled"
+                              disabled=""
+                              type="button"
+                            >
+                              <span
+                                class="p-3"
+                              >
+                                organization_paginator_next
+                              </span>
+                            </button>
+                            <button
+                              class="p-paginator-last p-paginator-element p-link p-disabled"
+                              disabled=""
+                              type="button"
+                            >
+                              <span
+                                class="p-2"
+                              >
+                                organization_paginator_last
+                              </span>
+                            </button>
+                            <div
+                              class="p-dropdown p-component p-inputwrapper dropdown-table-input opacity-md p-disabled p-inputwrapper-filled"
+                            >
+                              <div
+                                class="p-hidden-accessible"
+                              >
+                                <input
+                                  aria-haspopup="listbox"
+                                  aria-label="textbox"
+                                  disabled=""
+                                  readonly=""
+                                  type="text"
+                                />
+                              </div>
+                              <div
+                                class="p-hidden-accessible p-dropdown-hidden-select"
+                              >
+                                <select
+                                  aria-hidden="true"
+                                  tabindex="-1"
+                                >
+                                  <option
+                                    value=""
+                                  />
+                                  <option
+                                    value="10"
+                                  >
+                                    10
+                                  </option>
+                                </select>
+                              </div>
+                              <span
+                                class="p-dropdown-label p-inputtext"
+                              >
+                                10
+                              </span>
+                              <div
+                                aria-expanded="false"
+                                aria-haspopup="listbox"
+                                aria-label="dropdown-trigger"
+                                class="p-dropdown-trigger"
+                                role="button"
+                              >
+                                <span
+                                  class="p-dropdown-trigger-icon p-clickable pi pi-chevron-down"
+                                />
+                              </div>
+                            </div>
+                            <span
+                              style="user-select: none; text-align: center; margin-left: auto;"
+                            >
+                              organization_paginator_show_report
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-labelledby="react-aria6550736859-1-tab-order_detail_tab_status_history"
+                    class="fade tab-pane"
+                    id="react-aria6550736859-1-tabpane-order_detail_tab_status_history"
+                    role="tabpanel"
+                  >
+                    Status history
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-2 row"
+            >
+              <div
+                class="col"
+              >
+                <div
+                  class="d-flex justify-content-center"
+                >
+                  <button
+                    class="me-2 btn btn-primary"
+                    type="button"
+                  >
+                    common_confirm_close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

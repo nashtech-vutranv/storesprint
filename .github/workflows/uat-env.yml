@@ -1,0 +1,107 @@
+name: Ci cd Uat environment
+on:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  REGISTRY: ghcr.io
+  OWNER_REPO: thg-harveynash
+  IMAGE_NAME: ghcr.io/thg-harveynash/${{ github.event.repository.name }}
+  CHART_NAME: mms-management-ui-fe
+  CHART_VERSION: 0.2.0
+  NAMESPACE: mms
+  KEYCLOAK_SERVER: ${{ secrets.MMS_KEYCLOAK_SERVER_UAT }}
+  ENV_DEPLOY: uat
+  MMS_TOKEN: ${{ secrets.MMS_TOKEN }}
+
+jobs:
+  ci-cd-uat-env:
+    environment: Uat environment
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: toko-bifrost/ms-teams-deploy-card@master
+        if: always()
+        with:
+          github-token: ${{ github.token }}
+          webhook-uri: ${{ secrets.MMS_MS_TEAMS_WEBHOOK_URI }}
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: npm run build
+        run: |
+          npm install
+          REACT_APP_AUTH_SERVER_URL=${KEYCLOAK_SERVER} npm run build
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v1
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.MMS_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v3.6.2
+        with:
+          images: ${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,enable=true,prefix=${{ env.ENV_DEPLOY }}-
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+      - uses: azure/k8s-set-context@v2
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.MMS_KUBE_CONFIG_UAT }}
+
+      - name: Set up Helm
+        uses: azure/setup-helm@v1
+        with:
+          version: v3.8.1
+
+      - name: Checkout mms-deployment repo
+        uses: actions/checkout@v3
+        with:
+          repository: thg-harveynash/mms-deployment
+          path: mms-deployment
+          ref: ${{ env.ENV_DEPLOY }}
+          token: ${{ secrets.MMS_TOKEN }}
+
+      - name: Update image version in the related HelmChart values.yaml
+        uses: fjogeleit/yaml-update-action@v0.11.0
+        continue-on-error: true
+        with:
+          workDir: mms-deployment
+          valueFile: '${{ env.ENV_DEPLOY }}/${{ env.CHART_NAME }}.values.yaml'
+          propertyPath: 'image.tag'
+          value: ${{ steps.meta.outputs.version }}
+          repository: thg-harveynash/mms-deployment
+          branch: ${{ env.ENV_DEPLOY }}
+          createPR: false
+          token: ${{ secrets.MMS_TOKEN }}
+          message: '[skip ci] Update ${{ env.CHART_NAME }} Image Version to ${{ steps.meta.outputs.version }}'
+
+      - name: Login helm registry
+        run: echo "${{ secrets.MMS_TOKEN }}" | helm registry login -u ${{ github.actor }} --password-stdin ${REGISTRY}
+
+      - name: Deploy to Kubernetes cluster
+        working-directory: mms-deployment
+        run: |
+          helm upgrade --install ${CHART_NAME} --namespace=${NAMESPACE} \
+          --set image.tag="${{ steps.meta.outputs.version }}" \
+          -f "${{ env.ENV_DEPLOY }}/${{ env.CHART_NAME }}.values.yaml" oci://${REGISTRY}/${OWNER_REPO}/${CHART_NAME}

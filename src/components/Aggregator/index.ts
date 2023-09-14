@@ -1,0 +1,1 @@
+export {default as AggregatorTable} from './AggregatorTable'

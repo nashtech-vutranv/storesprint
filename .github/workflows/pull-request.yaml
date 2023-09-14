@@ -1,0 +1,56 @@
+name: Pull request workflow
+on:
+  pull_request:
+    branches: [develop]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  MMS_TOKEN: ${{ secrets.MMS_TOKEN }}
+
+jobs:
+  gitleaks-scanning:
+    name: Gitleaks scanning
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run gitleaks scanning commandline
+        run: docker run -v ${PWD}:/path ghcr.io/zricethezav/gitleaks:latest detect -v --source /path
+
+  quality-code-scanning-snyk:
+    name: Quality code scanning snyk
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        continue-on-error: true
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          command: monitor
+          args: --severity-threshold=false --include-provided-dependencies=false
+
+  quality-code-scanning-sonar:
+    name: Quality code scanning sonar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+#      - name: Test and coverage
+#        run: npm run test:coverage -- -u
+
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}

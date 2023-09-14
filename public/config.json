@@ -1,0 +1,7 @@
+{
+  "REACT_APP_UPS_BASE_URL": "/ups/api/v1/",
+  "REACT_APP_URL_KEYCLOAK": "https://keycloak.hnt1-dev.thg-experimental.com/auth",
+  "REACT_APP_REALM": "mms",
+  "REACT_APP_CLIENT_ID": "mms-ui",
+  "REACT_APP_MMS_BASE_URL": "/"
+}

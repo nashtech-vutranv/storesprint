@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Add OrganizationSite 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="breadcrumb"
+      >
+        <ol
+          class="breadcrumb m-0"
+        >
+          <li
+            class="breadcrumb-item"
+          >
+            <a
+              href="/organizations"
+            >
+              <span>
+                navigator_title_organizations
+              </span>
+            </a>
+          </li>
+          <li
+            class="breadcrumb-item"
+          >
+            <a
+              href="/organizations/org-id"
+            >
+              <span>
+                 
+                org-id
+                 
+              </span>
+            </a>
+          </li>
+          <li
+            aria-current="page"
+            class="breadcrumb-item active"
+          >
+            <span>
+               
+              sites_pate_title
+               
+            </span>
+          </li>
+        </ol>
+      </nav>
+      <div
+        class="card-form card"
+      >
+        <div
+          class="card-header"
+        >
+          <h4
+            class="card-form__title"
+          >
+            site_add_title
+          </h4>
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <form
+              autocomplete="on"
+              class="form-layout"
+            >
+              <div
+                class="container-fluid"
+              >
+                
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4 flex align-items-center col-4"
+                  >
+                    <label
+                      class="required"
+                      for="erpId"
+                    >
+                      site_add_erpId
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      class="p-inputtext p-component p-inputtext-sm"
+                      id="erpId"
+                      maxlength="16"
+                      name="erpId"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                />
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      class="required"
+                      for="name"
+                    >
+                      site_add_organization_name
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      class="p-inputtext p-component p-inputtext-sm"
+                      id="name"
+                      maxlength="128"
+                      name="name"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                />
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4"
+                  >
+                    <label
+                      class="required"
+                      for="url"
+                    >
+                      site_add_url
+                    </label>
+                  </div>
+                  <div
+                    class="p-fluid col-8"
+                  >
+                    <input
+                      class="p-inputtext p-component p-inputtext-sm"
+                      id="url"
+                      maxlength="255"
+                      name="url"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                />
+                <div
+                  class="align-items-center py-1 row"
+                >
+                  <div
+                    class="col-4 flex align-items-center"
+                  >
+                    <label
+                      class=""
+                      for="isActive"
+                    >
+                      site_add_active
+                    </label>
+                  </div>
+                  <div
+                    class="col-8"
+                  >
+                    <div
+                      class="p-inputswitch p-component p-inputswitch-checked"
+                    >
+                      <div
+                        class="p-hidden-accessible"
+                      >
+                        <input
+                          aria-checked="true"
+                          aria-label="checkbox"
+                          checked=""
+                          name="status"
+                          type="checkbox"
+                        />
+                      </div>
+                      <span
+                        class="p-inputswitch-slider"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-8 offset-4"
+                  >
+                    <button
+                      class="me-2 btn btn-danger"
+                      type="button"
+                    >
+                      common_confirm_cancel
+                    </button>
+                    <button
+                      class="me-2 btn btn-success"
+                      disabled=""
+                      type="button"
+                    >
+                      common_confirm_save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="breadcrumb"
+    >
+      <ol
+        class="breadcrumb m-0"
+      >
+        <li
+          class="breadcrumb-item"
+        >
+          <a
+            href="/organizations"
+          >
+            <span>
+              navigator_title_organizations
+            </span>
+          </a>
+        </li>
+        <li
+          class="breadcrumb-item"
+        >
+          <a
+            href="/organizations/org-id"
+          >
+            <span>
+               
+              org-id
+               
+            </span>
+          </a>
+        </li>
+        <li
+          aria-current="page"
+          class="breadcrumb-item active"
+        >
+          <span>
+             
+            sites_pate_title
+             
+          </span>
+        </li>
+      </ol>
+    </nav>
+    <div
+      class="card-form card"
+    >
+      <div
+        class="card-header"
+      >
+        <h4
+          class="card-form__title"
+        >
+          site_add_title
+        </h4>
+      </div>
+      <div
+        class="card-body"
+      >
+        <div
+          class="row"
+        >
+          <form
+            autocomplete="on"
+            class="form-layout"
+          >
+            <div
+              class="container-fluid"
+            >
+              
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4 flex align-items-center col-4"
+                >
+                  <label
+                    class="required"
+                    for="erpId"
+                  >
+                    site_add_erpId
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    class="p-inputtext p-component p-inputtext-sm"
+                    id="erpId"
+                    maxlength="16"
+                    name="erpId"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              />
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    class="required"
+                    for="name"
+                  >
+                    site_add_organization_name
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    class="p-inputtext p-component p-inputtext-sm"
+                    id="name"
+                    maxlength="128"
+                    name="name"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              />
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4"
+                >
+                  <label
+                    class="required"
+                    for="url"
+                  >
+                    site_add_url
+                  </label>
+                </div>
+                <div
+                  class="p-fluid col-8"
+                >
+                  <input
+                    class="p-inputtext p-component p-inputtext-sm"
+                    id="url"
+                    maxlength="255"
+                    name="url"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="row"
+              />
+              <div
+                class="align-items-center py-1 row"
+              >
+                <div
+                  class="col-4 flex align-items-center"
+                >
+                  <label
+                    class=""
+                    for="isActive"
+                  >
+                    site_add_active
+                  </label>
+                </div>
+                <div
+                  class="col-8"
+                >
+                  <div
+                    class="p-inputswitch p-component p-inputswitch-checked"
+                  >
+                    <div
+                      class="p-hidden-accessible"
+                    >
+                      <input
+                        aria-checked="true"
+                        aria-label="checkbox"
+                        checked=""
+                        name="status"
+                        type="checkbox"
+                      />
+                    </div>
+                    <span
+                      class="p-inputswitch-slider"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-8 offset-4"
+                >
+                  <button
+                    class="me-2 btn btn-danger"
+                    type="button"
+                  >
+                    common_confirm_cancel
+                  </button>
+                  <button
+                    class="me-2 btn btn-success"
+                    disabled=""
+                    type="button"
+                  >
+                    common_confirm_save
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

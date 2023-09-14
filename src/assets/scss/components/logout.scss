@@ -1,0 +1,12 @@
+.username-text {
+  position: relative;
+  .button-logout {
+    position: absolute;
+    right: 0;
+    button {
+      border-color: rgb(153, 153, 153);
+      background-color: #3a444e;
+      color: white;
+    }
+  }
+}

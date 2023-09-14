@@ -1,0 +1,75 @@
+@import '../config/saas/variables';
+
+.block {
+  display: block !important;
+}
+
+.p-sensitive-input {
+  padding-right: 2rem !important;
+}
+
+.pi-eye, .pi-eye-slash {
+  cursor: pointer;
+}
+
+.p-input-icon-right.p-sensitive-input-icon-right > i:last-of-type {
+  right: 0.5rem;
+}
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background: $success;
+}
+.p-inputswitch.p-inputswitch-checked:not(.p-disabled):hover
+  .p-inputswitch-slider {
+  background: $success;
+}
+
+.p-inputtext {
+  background: $white !important;
+  color: inherit;
+  border-radius: 6px;
+  font-size: var(--ct-body-font-size);
+}
+
+.p-dropdown .p-dropdown-trigger {
+  background: grey;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+body[data-layout-color='dark'] {
+  .p-inputtext {
+    color: $white;
+    background: var(--ct-input-bg) !important;
+    border: 1px solid var(--ct-input-border-color);
+  }
+
+  .p-dropdown .p-dropdown-trigger {
+    background: var(--ct-input-bg) !important;
+  }
+
+  .css-14el2xx-placeholder {
+    color: #bdbdbd;
+  }
+}
+
+body[data-layout-color='light'] {
+  .p-disabled,
+  .p-component:disabled {
+    opacity: 0.7;
+  }
+
+  .pi-eye, .pi-eye-slash {
+    color: black;
+  }
+}
+
+.p-input-icon-right > input {
+  width: 100%;
+}
+
+.p-input-icon-right .close-icon {
+  right: 1rem !important;
+}

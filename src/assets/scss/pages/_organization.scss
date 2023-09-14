@@ -1,0 +1,27 @@
+.limited-height {
+  max-height: 100vh;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.data-table-mh {
+  overflow: hidden;
+}
+
+.p-datatable-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.table-paginator {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+}
+
+.form-layout {
+  padding: 0 2rem 2rem 2rem;
+}

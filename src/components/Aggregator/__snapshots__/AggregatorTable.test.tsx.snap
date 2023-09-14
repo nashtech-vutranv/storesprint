@@ -1,0 +1,964 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Aggregator Table should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll data-table-mh"
+        data-scrollselectors=".p-datatable-wrapper"
+        pr_id_1=""
+      >
+        <div
+          class="p-datatable-header"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="d-flex justify-content-start align-items-center"
+            >
+              <div
+                class="btn-mr-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8"
+              >
+                <input
+                  class="p-inputtext p-component w-100"
+                  placeholder="common_input_search_placeHolder"
+                  value=""
+                />
+              </div>
+              <button
+                class="btn-h-95 btn btn-primary"
+                type="button"
+              >
+                common_button_search_label
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="p-datatable-wrapper"
+        >
+          <table
+            class="p-datatable-table"
+            role="table"
+          >
+            <thead
+              class="p-datatable-thead"
+            >
+              <tr
+                role="row"
+              >
+                <th
+                  aria-sort="ascending"
+                  class="p-sortable-column p-highlight"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      aggregator_column_header_name
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                    />
+                  </div>
+                </th>
+                <th
+                  aria-sort="none"
+                  class="p-sortable-column"
+                  role="columnheader"
+                  tabindex="0"
+                >
+                  <div
+                    class="p-column-header-content"
+                  >
+                    <span
+                      class="p-column-title"
+                    >
+                      aggregator_column_header_status
+                    </span>
+                    <span
+                      class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                    />
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="p-datatable-tbody"
+            >
+              <tr
+                class="p-selectable-row"
+                role="row"
+                tabindex="0"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    Account
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  Z,uskb+j\`3
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row p-row-odd"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    Boliviano
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  Qp^|u90m&lt;g
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    bypassing
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  T/-&ynp.n"
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row p-row-odd"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    bandwidth
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  Qo0[9z0h1h
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    CSS
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  Kdseg2:6"v
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row p-row-odd"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    Principal
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  &lt;eh12mp6x2
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    Kwacha
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  !jwi!={9@^
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row p-row-odd"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    Oriental
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  Q&|lx&lt;t3lf
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    Chicken
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  /#1a&gt;h%c=7
+                </td>
+              </tr>
+              <tr
+                class="p-selectable-row p-row-odd"
+                role="row"
+                tabindex="-1"
+              >
+                <td
+                  class=""
+                  role="cell"
+                >
+                  <div
+                    class="linesEllipsis"
+                    style="text-align: left;"
+                  >
+                    navigating
+                  </div>
+                </td>
+                <td
+                  class=""
+                  role="cell"
+                >
+                  H?2c%tvyk!
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="p-paginator p-component p-paginator-bottom table-paginator"
+        >
+          <div
+            class="p-paginator-left-content"
+          >
+            <button
+              aria-label="refresh-button"
+              class="p-button p-component p-button-text refresh-button p-button-icon-only"
+              type="button"
+            >
+              <span
+                class="p-button-icon p-c pi pi-refresh"
+              />
+              <span
+                class="p-button-label p-c"
+              >
+                 
+              </span>
+            </button>
+          </div>
+          <button
+            class="p-paginator-first p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-2"
+            >
+              organization_paginator_first
+            </span>
+          </button>
+          <button
+            class="p-paginator-prev p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-3"
+            >
+              organization_paginator_previous
+            </span>
+          </button>
+          <span
+            class="p-paginator-pages"
+          >
+            <button
+              class="p-paginator-page p-paginator-element p-link p-paginator-page-start p-paginator-page-end p-highlight"
+              type="button"
+            >
+              1
+            </button>
+          </span>
+          <button
+            class="p-paginator-next p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-3"
+            >
+              organization_paginator_next
+            </span>
+          </button>
+          <button
+            class="p-paginator-last p-paginator-element p-link p-disabled"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="p-2"
+            >
+              organization_paginator_last
+            </span>
+          </button>
+          <div
+            class="p-dropdown p-component p-inputwrapper dropdown-table-input  p-inputwrapper-filled"
+          >
+            <div
+              class="p-hidden-accessible"
+            >
+              <input
+                aria-haspopup="listbox"
+                aria-label="textbox"
+                readonly=""
+                type="text"
+              />
+            </div>
+            <div
+              class="p-hidden-accessible p-dropdown-hidden-select"
+            >
+              <select
+                aria-hidden="true"
+                tabindex="-1"
+              >
+                <option
+                  value=""
+                />
+                <option
+                  value="10"
+                >
+                  10
+                </option>
+              </select>
+            </div>
+            <span
+              class="p-dropdown-label p-inputtext"
+            >
+              10
+            </span>
+            <div
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              aria-label="dropdown-trigger"
+              class="p-dropdown-trigger"
+              role="button"
+            >
+              <span
+                class="p-dropdown-trigger-icon p-clickable pi pi-chevron-down"
+              />
+            </div>
+          </div>
+          <span
+            style="user-select: none; text-align: center; margin-left: auto;"
+          >
+            organization_paginator_show_report
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="p-datatable p-component p-datatable-selectable p-datatable-responsive-scroll data-table-mh"
+      data-scrollselectors=".p-datatable-wrapper"
+      pr_id_1=""
+    >
+      <div
+        class="p-datatable-header"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="d-flex justify-content-start align-items-center"
+          >
+            <div
+              class="btn-mr-1 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8"
+            >
+              <input
+                class="p-inputtext p-component w-100"
+                placeholder="common_input_search_placeHolder"
+                value=""
+              />
+            </div>
+            <button
+              class="btn-h-95 btn btn-primary"
+              type="button"
+            >
+              common_button_search_label
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="p-datatable-wrapper"
+      >
+        <table
+          class="p-datatable-table"
+          role="table"
+        >
+          <thead
+            class="p-datatable-thead"
+          >
+            <tr
+              role="row"
+            >
+              <th
+                aria-sort="ascending"
+                class="p-sortable-column p-highlight"
+                role="columnheader"
+                tabindex="0"
+              >
+                <div
+                  class="p-column-header-content"
+                >
+                  <span
+                    class="p-column-title"
+                  >
+                    aggregator_column_header_name
+                  </span>
+                  <span
+                    class="p-sortable-column-icon pi pi-fw pi-sort-amount-up-alt"
+                  />
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="p-sortable-column"
+                role="columnheader"
+                tabindex="0"
+              >
+                <div
+                  class="p-column-header-content"
+                >
+                  <span
+                    class="p-column-title"
+                  >
+                    aggregator_column_header_status
+                  </span>
+                  <span
+                    class="p-sortable-column-icon pi pi-fw pi-sort-alt"
+                  />
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="p-datatable-tbody"
+          >
+            <tr
+              class="p-selectable-row"
+              role="row"
+              tabindex="0"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  Account
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                Z,uskb+j\`3
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row p-row-odd"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  Boliviano
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                Qp^|u90m&lt;g
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  bypassing
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                T/-&ynp.n"
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row p-row-odd"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  bandwidth
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                Qo0[9z0h1h
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  CSS
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                Kdseg2:6"v
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row p-row-odd"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  Principal
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                &lt;eh12mp6x2
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  Kwacha
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                !jwi!={9@^
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row p-row-odd"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  Oriental
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                Q&|lx&lt;t3lf
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  Chicken
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                /#1a&gt;h%c=7
+              </td>
+            </tr>
+            <tr
+              class="p-selectable-row p-row-odd"
+              role="row"
+              tabindex="-1"
+            >
+              <td
+                class=""
+                role="cell"
+              >
+                <div
+                  class="linesEllipsis"
+                  style="text-align: left;"
+                >
+                  navigating
+                </div>
+              </td>
+              <td
+                class=""
+                role="cell"
+              >
+                H?2c%tvyk!
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="p-paginator p-component p-paginator-bottom table-paginator"
+      >
+        <div
+          class="p-paginator-left-content"
+        >
+          <button
+            aria-label="refresh-button"
+            class="p-button p-component p-button-text refresh-button p-button-icon-only"
+            type="button"
+          >
+            <span
+              class="p-button-icon p-c pi pi-refresh"
+            />
+            <span
+              class="p-button-label p-c"
+            >
+               
+            </span>
+          </button>
+        </div>
+        <button
+          class="p-paginator-first p-paginator-element p-link p-disabled"
+          disabled=""
+          type="button"
+        >
+          <span
+            class="p-2"
+          >
+            organization_paginator_first
+          </span>
+        </button>
+        <button
+          class="p-paginator-prev p-paginator-element p-link p-disabled"
+          disabled=""
+          type="button"
+        >
+          <span
+            class="p-3"
+          >
+            organization_paginator_previous
+          </span>
+        </button>
+        <span
+          class="p-paginator-pages"
+        >
+          <button
+            class="p-paginator-page p-paginator-element p-link p-paginator-page-start p-paginator-page-end p-highlight"
+            type="button"
+          >
+            1
+          </button>
+        </span>
+        <button
+          class="p-paginator-next p-paginator-element p-link p-disabled"
+          disabled=""
+          type="button"
+        >
+          <span
+            class="p-3"
+          >
+            organization_paginator_next
+          </span>
+        </button>
+        <button
+          class="p-paginator-last p-paginator-element p-link p-disabled"
+          disabled=""
+          type="button"
+        >
+          <span
+            class="p-2"
+          >
+            organization_paginator_last
+          </span>
+        </button>
+        <div
+          class="p-dropdown p-component p-inputwrapper dropdown-table-input  p-inputwrapper-filled"
+        >
+          <div
+            class="p-hidden-accessible"
+          >
+            <input
+              aria-haspopup="listbox"
+              aria-label="textbox"
+              readonly=""
+              type="text"
+            />
+          </div>
+          <div
+            class="p-hidden-accessible p-dropdown-hidden-select"
+          >
+            <select
+              aria-hidden="true"
+              tabindex="-1"
+            >
+              <option
+                value=""
+              />
+              <option
+                value="10"
+              >
+                10
+              </option>
+            </select>
+          </div>
+          <span
+            class="p-dropdown-label p-inputtext"
+          >
+            10
+          </span>
+          <div
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-label="dropdown-trigger"
+            class="p-dropdown-trigger"
+            role="button"
+          >
+            <span
+              class="p-dropdown-trigger-icon p-clickable pi pi-chevron-down"
+            />
+          </div>
+        </div>
+        <span
+          style="user-select: none; text-align: center; margin-left: auto;"
+        >
+          organization_paginator_show_report
+        </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

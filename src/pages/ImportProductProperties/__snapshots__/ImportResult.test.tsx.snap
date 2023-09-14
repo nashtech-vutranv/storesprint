@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Import result Page should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card-form mt-3 card"
+      >
+        <div
+          class="card-header"
+        >
+          <h4
+            class="card-form__title"
+          >
+            import_product_properties_result_title
+          </h4>
+        </div>
+        <div
+          class="card-body"
+        >
+          <div>
+            <p>
+              import_product_properties_result_insert_succesfully
+            </p>
+            <p>
+              import_product_properties_result_invalid_properties
+            </p>
+          </div>
+          <div
+            class="mt-2"
+          >
+            <div
+              class="p-datatable p-component p-datatable-responsive-scroll data-table-mh"
+              data-scrollselectors=".p-datatable-wrapper"
+              pr_id_1=""
+            >
+              <div
+                class="p-datatable-wrapper"
+              >
+                <table
+                  class="p-datatable-table"
+                  role="table"
+                >
+                  <thead
+                    class="p-datatable-thead"
+                  >
+                    <tr
+                      role="row"
+                    >
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_field_row_number
+                          </span>
+                        </div>
+                      </th>
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_erpId
+                          </span>
+                        </div>
+                      </th>
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_name
+                          </span>
+                        </div>
+                      </th>
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_data_type
+                          </span>
+                        </div>
+                      </th>
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_is_locale_sensitive
+                          </span>
+                        </div>
+                      </th>
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_status
+                          </span>
+                        </div>
+                      </th>
+                      <th
+                        class=""
+                        role="columnheader"
+                      >
+                        <div
+                          class="p-column-header-content"
+                        >
+                          <span
+                            class="p-column-title"
+                          >
+                            import_product_properties_result_import_failed_reason
+                          </span>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    class="p-datatable-tbody"
+                  >
+                    <tr
+                      class="p-datatable-emptymessage"
+                      role="row"
+                    >
+                      <td
+                        colspan="7"
+                        role="cell"
+                      >
+                        import_product_properties_result_empty_message
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center mt-2"
+          >
+            <button
+              class="me-2 btn btn-success"
+              type="button"
+            >
+              common_ok
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card-form mt-3 card"
+    >
+      <div
+        class="card-header"
+      >
+        <h4
+          class="card-form__title"
+        >
+          import_product_properties_result_title
+        </h4>
+      </div>
+      <div
+        class="card-body"
+      >
+        <div>
+          <p>
+            import_product_properties_result_insert_succesfully
+          </p>
+          <p>
+            import_product_properties_result_invalid_properties
+          </p>
+        </div>
+        <div
+          class="mt-2"
+        >
+          <div
+            class="p-datatable p-component p-datatable-responsive-scroll data-table-mh"
+            data-scrollselectors=".p-datatable-wrapper"
+            pr_id_1=""
+          >
+            <div
+              class="p-datatable-wrapper"
+            >
+              <table
+                class="p-datatable-table"
+                role="table"
+              >
+                <thead
+                  class="p-datatable-thead"
+                >
+                  <tr
+                    role="row"
+                  >
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_field_row_number
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_erpId
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_name
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_data_type
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_is_locale_sensitive
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_status
+                        </span>
+                      </div>
+                    </th>
+                    <th
+                      class=""
+                      role="columnheader"
+                    >
+                      <div
+                        class="p-column-header-content"
+                      >
+                        <span
+                          class="p-column-title"
+                        >
+                          import_product_properties_result_import_failed_reason
+                        </span>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="p-datatable-tbody"
+                >
+                  <tr
+                    class="p-datatable-emptymessage"
+                    role="row"
+                  >
+                    <td
+                      colspan="7"
+                      role="cell"
+                    >
+                      import_product_properties_result_empty_message
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-center mt-2"
+        >
+          <button
+            class="me-2 btn btn-success"
+            type="button"
+          >
+            common_ok
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

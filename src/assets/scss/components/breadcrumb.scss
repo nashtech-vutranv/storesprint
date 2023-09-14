@@ -1,0 +1,24 @@
+body[data-layout-color='light'] {
+  .breadcrumb-item.active {
+    color: var(--ct-body-color);
+  }
+  .breadcrumb-item {
+    a {
+      color: #751ac6 !important;
+    }
+  }
+
+  .breadcrumb-item.active {
+    color: black !important;
+  }
+}
+
+.breadcrumb-item {
+  a {
+    color: #dec4f8 !important;
+  }
+}
+
+.breadcrumb-item.active {
+  color: #fff !important;
+}

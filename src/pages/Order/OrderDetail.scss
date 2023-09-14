@@ -1,0 +1,28 @@
+.marketplace-delivery-service {
+  &__wrapper {
+    position: relative;
+  }
+
+  &__warning {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  &__prefix-icon {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+
+  &__suffix-icon {
+    margin-left: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: var(--ct-link-color);
+    transition: color .3s ease-in-out;
+    &:hover {
+      color: var(--ct-link-hover-color);
+    }
+  }
+}

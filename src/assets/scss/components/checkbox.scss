@@ -1,0 +1,20 @@
+.p-checkbox-box {
+  background: white !important;
+  border: 1px solid #0b213f !important;
+}
+
+.p-inverse-header {
+  order: 1;
+  margin-left: 0.5rem;
+}
+
+.p-disabled-check .p-checkbox-box {
+  background: #e6e6e6 !important
+}
+
+body[data-layout-color='dark'] {
+  .p-disabled-check .p-checkbox-box {
+    background: gray !important
+  }
+}
+  
